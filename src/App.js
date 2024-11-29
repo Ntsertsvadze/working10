@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import profilePic from './unnamed.png'; 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={profilePic} alt="Profile" className="profile-pic" />
+        <h1>Hello! Welcome to My  page.</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am a traveling lion.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <a href='#'>more</a>
       </header>
     </div>
   );
 }
 
 export default App;
+
